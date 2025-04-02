@@ -41,9 +41,7 @@ export class TodosComponent implements OnInit {
       if (this.localTodos != null) {
         this.todos = JSON.parse(this.localTodos);
       }
-      else {
-        
-      }
+      
     }
   }
 
